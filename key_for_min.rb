@@ -1,6 +1,5 @@
-# prereqs: iterators, hashes, conditional logic
-# Given a hash with numeric values, return the key for the smallest value
-
-def key_for_min_value(name_hash)
-
+ital_menu = {:lasagna => 12.50, :spaghetti => 12.00, :manicotti => 13.75, :cacio_e_pepe => 11.50}
+def key_for_min_value(ital_menu)
+  ital_menu.each do |food, price|
+    
 end
